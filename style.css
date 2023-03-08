@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "Kh-Bold";
+    src: url("../fonts/Kantumruy-Bold.ttf");
+}
+@font-face {
+    font-family: "Kh";
+    src: url("../fonts/Kantumruy-Regular.ttf");
+}
+body {
+    margin: 0;
+}
+.gallery {
+    width: 100%;
+    display: flex;
+}
+ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+}
+li {
+    display: flex;
+    height: 300px;
+    width: auto; 
+    flex-grow: 1; 
+} 
+img {
+    object-fit: cover;
+    max-width: 100%;
+    min-width: 100%;
+}
+.friend h1{
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+/* ------------------------------------------------------------ */
+.menu-bar{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    height: 30px;
+}
+p{
+    color: white;
+    font-family: "Kh";
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url(https://www.drodd.com/images10/beach-wallpaper27.jpg);
+    width: 100%;
+    height: 100vh;   
+    font-size: 30px;
+}
+#btn{
+    color: blue;
+    font-family: "Kh-Bold";
+    margin-left: 170px;
+    padding: 5px;
+
+}
+.text p,h1{
+    text-align: center;
+    color: blue;
+    font-family: "Kh-Bold";
+    padding: 10px;
+    margin: 0;
+}
+.picture{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    
+}
+.picture .pic{
+    width: 33%;
+    height: 100%;
+    float: left;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.detailandpict{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+}
+.detail{
+    width: 30%;
+    height: 400px;
+    
+}
+.pict{
+    width: 50%;
+    height: 400px;
+}
+.detail p{
+    font-family: "kh";
+    color: blue;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.detail h4{
+    font-family: "kh-Bold";
+    color: blue;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+}
+h1{
+    color: blue;
+    font-size: 50px;
+}
+.icon p{
+    color: blue;
+    font-family: "Kh";
+    
+}
+.icon h3{
+    color: blue;
+    font-family: "Kh-Bold";
+    font-size: 25px;
+
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: blue;
+    text-align: center;
+    margin: 70px;
+    
+}
+i{
+    font-size: 70px;
+    
+}
+
+
+
+    
